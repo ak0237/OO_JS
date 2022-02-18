@@ -1,0 +1,20 @@
+{
+  "name": "oo_js",
+  "version": "1.0.0",
+  "description": "OO em JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak0237/OO_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ak0237/OO_JS/issues"
+  },
+  "homepage": "https://github.com/ak0237/OO_JS#readme"
+}
