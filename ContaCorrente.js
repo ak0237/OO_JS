@@ -24,6 +24,12 @@ export class ContaCorrente{ // export
     }
 
 
+    constructor(cliente, agencia){
+        this.agencia = agencia;
+        this.cliente = cliente;
+    }
+
+
     sacar(valor){
         if(this.#saldo >= valor){ // this é usado para referenciar a conta que está chamando o metodo 
             this.#saldo -= valor;
