@@ -1,6 +1,7 @@
 import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente{ // export 
+    static numeroDeContas =0; // Cria um atributo para a classe, não para os objetos
     agencia;
     _cliente; // Quando atribuir os valor deste atributo, deverá ser o nome da variavel que guarda o cliente desejado
 
@@ -27,6 +28,7 @@ export class ContaCorrente{ // export
     constructor(cliente, agencia){
         this.agencia = agencia;
         this.cliente = cliente;
+        ContaCorrente.numeroDeContas += 1; // Jeito de atribuir algum valor para algum atributo da classe
     }
 
 
