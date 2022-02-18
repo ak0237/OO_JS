@@ -1,5 +1,9 @@
 export class ContaCorrente{ // export 
     agencia;
+    cliente; // Quando atribuir os valor deste atributo, deverá ser o nome da variavel que guarda o cliente desejado
+
+
+
     #saldo = 0; // # ou _ = privado
 
     sacar(valor){
